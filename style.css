@@ -1,0 +1,5 @@
+body { margin: 0; font: 16px/1.6 system-ui, sans-serif; background: #0b0e18; color: #eef1f8; }
+main { max-width: 720px; margin: 0 auto; padding: 40px 16px; }
+h1 { line-height: 1.2; }
+a { color: #7cff6b; }
+.aide { color: #8f99b5; font-size: 14px; }
