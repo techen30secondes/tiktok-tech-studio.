@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Connexion TikTok</title><link rel="stylesheet" href="style.css"></head>
+<body><main>
+<h1>Connexion à TikTok…</h1>
+<p>Retour vers Tech en 30 secondes sur ton ordinateur. L'app doit être lancée (http://127.0.0.1:5050).</p>
+<script>
+  // Page relais : TikTok exige une adresse https ; on renvoie le code d'autorisation à l'app locale.
+  location.replace("http://127.0.0.1:5050/tiktok/callback/" + location.search);
+</script>
+</main></body></html>
